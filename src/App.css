@@ -1,0 +1,13 @@
+.app {
+  background-color: var(--verde);
+}
+.appLogo {
+  height: 50px;
+  width: auto;
+}
+h1 {
+  color: var(--branco);
+}
+p {
+  color: var(--branco);
+}
