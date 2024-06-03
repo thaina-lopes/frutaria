@@ -1,0 +1,21 @@
+.app {
+  height: 100vh;
+  background-color: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 48px;
+  width: auto;
+  margin-right: 10px;
+}
+.titulo {
+  color: var(--branco);
+  font-size: 31px;
+}
+.paragrafo {
+  color: var(--branco);
+  font-size: 12px;
+  letter-spacing: 1.4px;
+}
