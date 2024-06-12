@@ -41,6 +41,11 @@
 .input input::placeholder {
   color: var(--cinza);
 }
+.botoesContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Garante que o container ocupe a largura total do formulário */
+}
 .novaConta {
   margin-top: 15px;
   font-size: 13px;
