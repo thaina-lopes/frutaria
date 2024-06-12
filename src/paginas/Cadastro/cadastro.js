@@ -34,7 +34,7 @@ const Formulario = () => {
     const usuario = { nome, email, senha };
 
     // Envia os dados do formulário para o servidor usando fetch
-    fetch("http://localhost:3001/usuarios", {
+    fetch("http://localhost:4000/usuarios", {
       method: "POST", // Método HTTP utilizado para enviar os dados
       headers: {
         "Content-Type": "application/json", // Cabeçalho indicando o tipo de conteúdo
