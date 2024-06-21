@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.botao {
+  width: 45px;
+  height: 45px;
+  font-size: 11px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantidade {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 15px;
+}

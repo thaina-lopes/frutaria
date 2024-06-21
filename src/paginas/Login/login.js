@@ -2,6 +2,7 @@ import Botoes from "../../componentes/botoes";
 import styles from "../Login/login.module.css";
 import logo from "../../img/fruta03.png";
 import { Link } from "react-router-dom";
+import BotaoPequeno from "../../componentes/botaoPequeno";
 
 export default function Login() {
   return (
