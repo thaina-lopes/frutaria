@@ -1,6 +1,6 @@
-import styles from "../Cadastro/cadatro.module.css";
+import styles from "../Cadastro/cadastro.module.css";
 import logo from "../../img/fruta03.png";
-import Botoes from "../../componentes/botoes";
+import Botao from "../../componentes/botao";
 import { Link } from "react-router-dom";
 
 export default function Cadastro() {
@@ -25,7 +25,7 @@ export default function Cadastro() {
           </label>
         </form>
       </div>
-      <Botoes>Ok</Botoes>
+      <Botao>Ok</Botao>
       <p className={styles.novaConta}>
         Já tem uma conta?{" "}
         <Link to="/login" className={styles.cadastrarNovaConta}>
