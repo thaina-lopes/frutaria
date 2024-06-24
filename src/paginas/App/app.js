@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../../img/fruta04.png";
-import styles from "../Home/app.module.css";
+import styles from "../App/app.module.css";
 import Botao from "../../componentes/botao";
 
 export default function App() {

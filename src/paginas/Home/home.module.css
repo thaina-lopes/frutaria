@@ -1,0 +1,15 @@
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 45px;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 20px;
+}
+.produtos {
+  display: flex;
+}
