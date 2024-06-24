@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
-import Botoes from "../../componentes/botoes";
 import logo from "../../img/fruta04.png";
 import styles from "../Home/app.module.css";
+import Cards from "../../componentes/cards";
+import banana from "../../img/banana.png";
+import Botao from "../../componentes/botao";
 
 export default function App() {
   return (
@@ -17,7 +19,7 @@ export default function App() {
       </div>
       <div className={styles.botao}>
         <Link to="/login">
-          <Botoes>Entrar</Botoes>
+          <Botao>Entrar</Botao>
         </Link>
       </div>
     </div>

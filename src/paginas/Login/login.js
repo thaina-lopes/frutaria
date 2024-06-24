@@ -1,6 +1,6 @@
-import Botoes from "../../componentes/botoes";
 import styles from "../Login/login.module.css";
 import logo from "../../img/fruta03.png";
+import Botao from "../../componentes/botao";
 import { Link } from "react-router-dom";
 import BotaoPequeno from "../../componentes/botaoPequeno";
 
@@ -22,7 +22,7 @@ export default function Login() {
           </label>
         </form>
       </div>
-      <Botoes>Ok</Botoes>
+      <Botao>Ok</Botao>
       <p className={styles.novaConta}>
         Não tem uma conta?{" "}
         <Link to="/cadastro" className={styles.cadastrarNovaConta}>
